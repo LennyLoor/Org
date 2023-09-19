@@ -1,0 +1,50 @@
+.colaborador{
+    width: 280px;
+    margin-bottom: 24px;
+    box-shadow: 1px 1px 9px rgb(0 0 0 / 18%);
+    position: relative;
+}
+.colaborador .encabezado{
+    background-color: #F0F0F0;
+    border-radius: 10px 10px 0 0;
+}
+.colaborador img{
+    width: 100px;
+    border-radius: 50%;
+    position: relative;
+    bottom: -50px;
+}
+.colaborador .info{
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    min-height: 100px;
+    font-family: 'Montserrat','sans-serif';
+}
+.colaborador .info h4{
+    color: #6278f7;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.colaborador .info h5{
+    color: #212121;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 400; 
+    padding: 0 24px;
+    margin: 0;
+}
+.colaborador .icon-eliminar{
+    color: white;
+    position: absolute;
+    font-size: 1.8rem;
+    right: -0.8rem;
+    top: -0.8rem;
+    cursor: pointer;
+}
+.info svg{
+    cursor: pointer;
+}
